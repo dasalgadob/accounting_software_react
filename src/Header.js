@@ -16,9 +16,20 @@ export default class Header extends Component {
               <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="/">
-              <img src={logo} id="header-img"/>
+              <img src="" id="header-img"/>
             </a>
           </div>
+
+          <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="active" ><a href="/" class="nav-link">Home</a></li>
+              <li class=""><a href="/about" class="nav-link">About</a></li>
+              <li class=""><a href="/help" class="nav-link">Help</a></li>
+
+              </ul>
+            </div>
+
+
 
           </div>
         </nav>
